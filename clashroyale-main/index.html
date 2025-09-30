@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clash Royale Sons</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/eu.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- VÍDEO DE FUNDO -->
+    <video autoplay muted loop id="video-fundo">
+        <source src="filme/video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos de fundo.
+    </video>
+
+    <!-- OVERLAY ESCURO -->
+    <div id="overlay"></div>
+
+    <!-- TÍTULO -->
+    <h1 class="titulo">Clash Royale Sons</h1>
+
+    <!-- GRID DE BOTÕES -->
+    <div class="teclado-container">
+        <section class="teclado">
+            <button class="tecla tecla_pom"><img src="images/bravo.png" alt="Aplausos"></button>
+            <button class="tecla tecla_clap"><img src="images/galo.gif" alt="Galo"></button>
+            <button class="tecla tecla_tim"><img src="images/globins.gif" alt="Sem Amigos"></button>
+            <button class="tecla tecla_puff"><img src="images/lendaria.png" alt="Parabéns"></button>
+            <button class="tecla tecla_splash"><img src="images/corredor.gif" alt="Errou"></button>
+            <button class="tecla tecla_toim"><img src="images/clash.gif" alt="Sinal"></button>
+            <button class="tecla tecla_psh"><img src="images/choro.png" alt="Choro"></button>
+            <button class="tecla tecla_tic"><img src="images/principe.gif" alt="Grilo"></button>
+            <button class="tecla tecla_t"><img src="images/minipekka.gif" alt="Tambores"></button>
+            <button class="tecla tecla_i"><img src="images/barrilglobins.png" alt="Senta lá, Cláudia"></button>
+            <button class="tecla tecla_c"><img src="images/risada.gif" alt="Você está certo, disso"></button>
+            <button class="tecla tecla_tom"><img src="images/stop.png" alt="Stop"></button>
+        </section>
+    </div>
+
+    <!-- AUDIOS -->
+    <audio src="sounds/bravo.mp3" id="som_tecla_pom"></audio>
+    <audio src="sounds/galinha.mp3" id="som_tecla_clap"></audio>
+    <audio src="sounds/globins.mp3" id="som_tecla_tim"></audio>
+    <audio src="sounds/lendaria.mp3" id="som_tecla_puff"></audio>
+    <audio src="sounds/corredor.mp3" id="som_tecla_splash"></audio>
+    <audio src="sounds/intro.mp3" id="som_tecla_toim"></audio>
+    <audio src="sounds/choro.mp3" id="som_tecla_psh"></audio>
+    <audio src="sounds/principe.mp3" id="som_tecla_tic"></audio>
+    <audio src="sounds/minipekka.mp3" id="som_tecla_t"></audio>
+    <audio src="sounds/barrilglobin.mp3" id="som_tecla_i"></audio>
+    <audio src="sounds/risada.mp3" id="som_tecla_c"></audio>
+    <audio src="sounds/stop.mp3" id="som_tecla_tom"></audio>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <img src="images/clash.png" class="tiago">
+        <p class="by">Última Atualização: 30/09/2025</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
